@@ -193,3 +193,21 @@ body::before {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* deeper shadow */
   cursor: pointer;
 }
+
+section {
+  padding: 20px; /* Add padding to the entire section for some space around it */
+}
+
+h2 {
+  margin-top: 20px; 
+  margin-bottom: 15px;
+}
+
+p {
+  margin-top: 20px; 
+  line-height: 1.6; 
+}
+
+p br {
+  margin-bottom: 15px; 
+}
