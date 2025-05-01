@@ -237,3 +237,50 @@ p br {
 
 .intro-section ul li {
   margin-bottom: 10px;}
+
+
+  #author-section {
+    width: 100%; /* Ensures the section takes up the full width */
+    padding: 20px; /* Adds space inside the section */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text inside the div */
+    margin-top: 20px; /* Space on top for separation */
+  }
+  
+  /* Styling for the <h5> */
+  #author-section h5 {
+    font-size: 48px; /* Large font size for prominence */
+    font-weight: bold; /* Bold text */
+    color: #861818; /* Dark color for readability */
+    margin-bottom: 20px; /* Space between h5 and image */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Styling for the image */
+  #author-section img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 90%; /* Set a max width to prevent stretching too wide */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is a block element */
+}
+
+
+#author-section {
+  padding: 20px;
+  margin-bottom: 80px; /* Space for the footer */
+  box-sizing: border-box;
+}
+
+#author-section img {
+  width: 100%; /* Make sure the image is responsive */
+  height: auto;
+}
+
+footer {
+  margin-top: 20px; /* Ensure the footer is not directly on top of content */
+}
