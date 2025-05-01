@@ -3,7 +3,7 @@
 Welcome to **Mohamed Adventures** — your ultimate travel planning companion! Whether you're dreaming of sun-kissed beaches, snowy mountain trails, or bustling cityscapes, Mohamed Adventures allows you to visualize and manage your travel wishlist with ease.
 
 
-.
+
 ## Live Demo
 
 [View Site]( https://mohamedbishar.github.io/TRAVEL-WISHLIST/) *(Replace this with your actual deployed site URL)*
