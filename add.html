@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add Destination</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add New Destination</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
+    <h1>ADD A TRAVEL DESTINATION</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="home.html">Wishlist</a>
-      <a href="add.html">Add Destination</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html">View Destinations</a></li>
+        <li><a href="add.html">Add Destination</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <section>
-      <h1>Add a Travel Destination</h1>
+      <h2>Add Destination</h2>
       <form id="destination-form">
-        <label for="place">Place Name:</label>
-        <input type="text" id="place" name="place" required>
+        <label for="name">Destination Name:</label>
+        <input type="text" id="name" name="name" required />
 
-        <label for="country">Country:</label>
-        <input type="text" id="country" name="country" required>
+        <label for="description">Why do you want to go there?</label>
+        <textarea id="description" name="description" required></textarea>
 
-        <label for="landmarks">Landmarks:</label>
-        <input type="text" id="landmarks" name="landmarks">
-
-        <label for="season">Best Season to Visit:</label>
-        <input type="text" id="season" name="season">
-
-        <label for="notes">Notes:</label>
-        <textarea id="notes" name="notes"></textarea>
-
-        <button type="submit">Add to Wishlist</button>
+        <button type="submit">Submit Destination</button>
       </form>
+      <p id="form-msg"></p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Email: issack.mbishar@gamil.com</p>
+      <p>Phone: +254 117220372</p>
+      <p>Instagram: @taravelwithMohamedadventures</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Mohamed Bishar</p>
+    <p>DREAM.PLAN.EXPLORE.</p>
   </footer>
 
   <script src="index.js"></script>
