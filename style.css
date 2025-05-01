@@ -189,13 +189,13 @@ body::before {
 }
 
 .gallery-grid img:hover {
-  transform: scale(1.05); /* slight zoom */
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* deeper shadow */
+  transform: scale(1.05); 
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
   cursor: pointer;
 }
 
 section {
-  padding: 20px; /* Add padding to the entire section for some space around it */
+  padding: 20px; 
 }
 
 h2 {
@@ -213,7 +213,7 @@ p br {
 }
 
 .intro-section {
-  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white for readability */
+  background-color: rgba(255, 255, 255, 0.8); 
   padding: 30px;
   margin: 40px;
   border-radius: 10px;
@@ -240,47 +240,47 @@ p br {
 
 
   #author-section {
-    width: 100%; /* Ensures the section takes up the full width */
-    padding: 20px; /* Adds space inside the section */
-    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
     display: flex;
-    justify-content: center; /* Horizontally centers the content */
-    align-items: center; /* Vertically centers the content */
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center text inside the div */
-    margin-top: 20px; /* Space on top for separation */
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    margin-top: 20px; 
   }
   
-  /* Styling for the <h5> */
+  
   #author-section h5 {
-    font-size: 48px; /* Large font size for prominence */
-    font-weight: bold; /* Bold text */
-    color: #861818; /* Dark color for readability */
-    margin-bottom: 20px; /* Space between h5 and image */
-    text-align: center; /* Center the text */
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #861818; 
+    margin-bottom: 20px; 
+    text-align: center; 
   }
   
-  /* Styling for the image */
+  
   #author-section img {
-    width: 100%; /* Make the image width 100% of its container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 90%; /* Set a max width to prevent stretching too wide */
-    margin: 0 auto; /* Center the image horizontally */
-    display: block; /* Ensure the image is a block element */
+    width: 100%; 
+    height: auto; 
+    max-width: 90%; 
+    margin: 0 auto; 
+    display: block; 
 }
 
 
 #author-section {
   padding: 20px;
-  margin-bottom: 80px; /* Space for the footer */
+  margin-bottom: 80px;
   box-sizing: border-box;
 }
 
 #author-section img {
-  width: 100%; /* Make sure the image is responsive */
+  width: 100%; 
   height: auto;
 }
 
 footer {
-  margin-top: 20px; /* Ensure the footer is not directly on top of content */
+  margin-top: 20px; 
 }
