@@ -29,7 +29,7 @@ Student at Moringa School | Aspiring Full-Stack Developer & AI Expert
 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
+Acknowledgements
 Special thanks to:
 
 Moringa School instructors & peers
