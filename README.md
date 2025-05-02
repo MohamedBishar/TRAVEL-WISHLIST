@@ -24,7 +24,7 @@ Welcome to **Mohamed Adventures** — your ultimate travel planning companion! W
 ##   Author
 Mohamed Bishar
 Student at Moringa School | Aspiring Full-Stack Developer & AI Expert
-📧 Email: issack.mbishar@gmail.com
+Email: issack.mbishar@gmail.com
 
 License
 This project is licensed under the MIT License.
