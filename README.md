@@ -26,7 +26,7 @@ Mohamed Bishar
 Student at Moringa School | Aspiring Full-Stack Developer & AI Expert
 📧 Email: issack.mbishar@gmail.com
 
-📄 License
+License
 This project is licensed under the MIT License.
 
 🙌 Acknowledgements
